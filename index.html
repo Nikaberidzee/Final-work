@@ -1,74 +1,92 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Estonia&family=Road+Rage&display=swap" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="description for my website" />
+    <meta name="keywords" content="Final work" />
+    <meta name="author" content="Nika" />
+    <meta property="og:url" content="#" />
+    <meta property="og:type" content="index" />
+    <meta property="og:title" content="Facebook Title" />
+    <meta property="og:description" content="Facebook Description" />
+    <meta
+      property="og:image"
+      content="https://uploads1.wikiart.org/00334/images/gustave-dore/paul-gustave-dore-by-felix-nadar-1855-1859.jpg!Portrait.jpg"
+    />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Estonia&family=Road+Rage&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title>Document</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <nav class="nav-menu" role="navigation">
-            <div id="menuToggle">
-            <input type="checkbox" />
-            <span></span>
-            <span></span>
-            <span></span>
-            <ul id="menu">
-                <a href="#"><li>Home</li></a>
-                <a href="about-us.html"><li>About</li></a>
-                <a href="#"><li>Info</li></a>
-                <a href="#"><li>Contact</li></a>
-                <a href="https://erikterwan.com/" target="_blank"><li>Show me more</li></a>
-            </ul>
-            </div>
-            <div class="logo-container">
-                <img class="logo-img" src="img/Visual.svg" alt="logo">
-            </div>
-            <div class="social-media-menu">
-                <a href="https://twitter.com/?lang=en" target="_blank">
-                    <img class="social-media" src="img/twitter.png" alt="Twitter">
-                </a>
-                <a href="https://www.instagram.com/" target="_blank">
-                    <img class="social-media" src="img/instagram.png" alt="instagram">
-                </a>
-                <a href="https://www.facebook.com/" target="_blank">
-                    <img class="social-media" src="img/facebook.png" alt="facebook">
-                </a>
-            </div>
-        </nav>    
+      <nav class="nav-menu" role="navigation">
+        <div id="menuToggle">
+          <input type="checkbox" />
+          <span></span>
+          <span></span>
+          <span></span>
+          <ul id="menu">
+            <a href="#"><li>Home</li></a>
+            <a href="about-us.html"><li>About</li></a>
+            <a href="contact.html"><li>Contact</li></a>
+            <a href="https://erikterwan.com/" target="_blank"
+              ><li>Show me more</li></a
+            >
+          </ul>
+        </div>
+        <div class="logo-container">
+          <a href="index.html">
+            <img class="logo-img" src="img/Visual.svg" alt="logo" />
+          </a>
+        </div>
+        <div class="social-media-menu">
+          <a href="https://twitter.com/?lang=en" target="_blank">
+            <img class="social-media" src="img/twitter.png" alt="Twitter" />
+          </a>
+          <a href="https://www.instagram.com/" target="_blank">
+            <img class="social-media" src="img/instagram.png" alt="instagram" />
+          </a>
+          <a href="https://www.facebook.com/" target="_blank">
+            <img class="social-media" src="img/facebook.png" alt="facebook" />
+          </a>
+        </div>
+      </nav>
     </header>
     <section class="section-1-container">
-        <div class="left-section">
-            <div class="left-section-item-title">
-                <div class="top-title">
-                    <h3>BLACK</h3>
-                </div>
-                <div class="bottom-title">
-                    <h4>COLLECTI<span>ON</span></h4>
-                </div>
-                <div class="item-description">
-                    <p>The truly wireless M80 DuoPods are a 
-                        complete package from HD sound to a 
-                        great battery life. 
-                        All you want in a pair of earbuds- 
-                        packed and delivered.</p>
-                </div>
-                <div class="read-more">
-                    <a href="#">READ MORE</a>
-                </div>
-            </div>
+      <div class="left-section" data-aos="fade-left">
+        <div class="left-section-item-title">
+          <div class="top-title">
+            <h3>BLACK</h3>
+          </div>
+          <div class="bottom-title">
+            <h4>COLLECTI<span>ON</span></h4>
+          </div>
+          <div class="main-page-item-description">
+            <p>
+              The truly wireless M80 DuoPods are a complete package from HD
+              sound to a great battery life. All you want in a pair of earbuds-
+              packed and delivered.
+            </p>
+          </div>
+          <div class="read-more">
+            <a href="item_1.html">READ MORE</a>
+          </div>
         </div>
-        <div class="right-section">
-            <img src="img/earphones.png" alt="earphones">
-            <!-- <a href="#"><iframe src="https://embed.lottiefiles.com/animation/1342"></iframe></a> -->
-        </div>
-        <footer class="footer-menu">
+      </div>
+      <div class="right-section" data-aos="fade-right">
+        <img src="img/earphones.png" alt="earphones" />
+      </div>
+      <!-- <footer class="footer-menu">
             <div class="footer-scroll">
                 <a href="#">
                     <div class="active-page"></div>
@@ -76,8 +94,11 @@
                 <a href="#"></a>
                 <a href="#"></a>
             </div>
-        </footer>
+        </footer> -->
     </section>
-    
-</body>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
 </html>

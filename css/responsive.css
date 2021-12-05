@@ -1,0 +1,144 @@
+@media (max-width: 1350px) {
+  .right-section > img {
+    width: 95%;
+  }
+}
+@media (max-width: 1350px) {
+  .left-section-item-title > .top-title > h3 {
+    font-size: 80px;
+  }
+  .left-section-item-title > .bottom-title > h4 {
+    font-size: 70px;
+    margin-left: 100px;
+  }
+  .main-page-item-description {
+    max-width: 175px;
+  }
+  .read-more {
+    margin-left: 100px;
+  }
+  .about-us-section > div > p {
+    font-size: 15px;
+    max-width: 350px;
+    margin-bottom: 15px;
+  }
+  .about-us-section > div > img {
+    max-width: 450px;
+    width: 100%;
+  }
+  .meetus {
+    max-width: 450px;
+  }
+}
+@media (max-width: 1060px) {
+  .about-us-section {
+    width: 90%;
+    display: block;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
+  .about-us-text {
+    align-items: center;
+  }
+}
+@media (max-width: 880px) {
+  .contact-section {
+    display: block;
+  }
+  .contact-container {
+    margin: 0 auto;
+  }
+  .map-container {
+    margin-top: 20px;
+  }
+}
+@media (max-width: 800px) {
+  .section-1-container {
+    display: block;
+  }
+  .left-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .left-section-item-title {
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .left-section-item-title > .top-title > h3 {
+    margin: 0;
+  }
+  .left-section-item-title > .bottom-title > h4 {
+    margin: 0;
+    margin-bottom: 15px;
+  }
+  .main-page-item-description {
+    margin: 0;
+    margin-bottom: 30px;
+  }
+  .read-more {
+    margin: 0;
+    max-width: 100%;
+  }
+  .map {
+    height: 400px;
+    width: 400px;
+  }
+}
+@media (max-width: 562px) {
+  .section-1-container {
+    padding-left: 50px;
+  }
+  .nav-menu {
+    max-width: 80px;
+  }
+  .social-media-menu {
+    padding: 0;
+  }
+  .logo-container {
+    padding: 0;
+  }
+  #menuToggle {
+    left: 30px;
+  }
+  .contact-section {
+    padding-left: 70px;
+  }
+  .map {
+    width: 250px;
+    height: 250px;
+  }
+}
+@media (max-width: 420px) {
+  .contact-container {
+    display: block;
+  }
+  .faq-section {
+    margin-bottom: 20px;
+  }
+  .ask-us-container {
+    max-width: 100%;
+    margin-right: 0;
+  }
+}
+@media (max-width: 380px) {
+  .section-1-container {
+    padding-left: 50px;
+  }
+  .map-container > h1 {
+    font-size: 13px;
+  }
+  .left-section-item-title > .top-title > h3 {
+    font-size: 60px;
+  }
+  .left-section-item-title > .bottom-title > h4 {
+    font-size: 50px;
+  }
+  .map {
+    width: 200px;
+    height: 200px;
+  }
+}

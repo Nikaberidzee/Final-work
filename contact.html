@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="description for my website" />
+    <meta name="keywords" content="Final work" />
+    <meta name="author" content="Nika" />
+    <meta property="og:url" content="#" />
+    <meta property="og:type" content="index" />
+    <meta property="og:title" content="Facebook Title" />
+    <meta property="og:description" content="Facebook Description" />
+    <meta
+      property="og:image"
+      content="https://uploads1.wikiart.org/00334/images/gustave-dore/paul-gustave-dore-by-felix-nadar-1855-1859.jpg!Portrait.jpg"
+    />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Estonia&family=Road+Rage&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <nav class="nav-menu" role="navigation">
+        <div id="menuToggle">
+          <input type="checkbox" />
+          <span></span>
+          <span></span>
+          <span></span>
+          <ul id="menu">
+            <a href="index.html"><li>Home</li></a>
+            <a href="about-us.html"><li>About</li></a>
+            <a href="contact.html"><li>Contact</li></a>
+            <a href="https://erikterwan.com/" target="_blank"
+              ><li>Show me more</li></a
+            >
+          </ul>
+        </div>
+        <div class="logo-container">
+          <a href="index.html">
+            <img class="logo-img" src="img/Visual.svg" alt="logo" />
+          </a>
+        </div>
+        <div class="social-media-menu">
+          <a href="https://twitter.com/?lang=en" target="_blank">
+            <img class="social-media" src="img/twitter.png" alt="Twitter" />
+          </a>
+          <a href="https://www.instagram.com/" target="_blank">
+            <img class="social-media" src="img/instagram.png" alt="instagram" />
+          </a>
+          <a href="https://www.facebook.com/" target="_blank">
+            <img class="social-media" src="img/facebook.png" alt="facebook" />
+          </a>
+        </div>
+      </nav>
+    </header>
+    <section class="contact-section">
+      <div class="contact-container" data-aos="fade-left">
+        <div class="ask-us-container">
+          <div class="ask-us">
+            <h1>Ask us questions anytime.</h1>
+            <p>We answer within minutes!</p>
+          </div>
+          <form action="/action_page.php">
+            <label for="fname">First Name</label>
+            <input
+              type="text"
+              id="fname"
+              name="firstname"
+              placeholder="Your name.."
+            />
+
+            <label for="lname">Last Name</label>
+            <input
+              type="text"
+              id="lname"
+              name="lastname"
+              placeholder="Your last name.."
+            />
+
+            <label for="country">Country</label>
+            <select id="country" name="country">
+              <option value="Georgia">Georgia</option>
+              <option value="Rest of the World">Rest of The World</option>
+            </select>
+
+            <label for="subject">Subject</label>
+            <textarea
+              id="subject"
+              name="subject"
+              placeholder="Write something.."
+              style="height: 100px"
+            ></textarea>
+
+            <input class="submit" type="submit" value="Submit" />
+          </form>
+          <form
+            class="example"
+            action="/action_page.php"
+            style="margin: auto; width: 100%"
+          ></form>
+          <div class="contact-bottom">
+            <div class="contact-bottom-line-1">
+              <h1>We're willingly accessible</h1>
+              <h3>Send us a message and we'll get back to you</h3>
+            </div>
+            <div class="mail-phone">
+              <a href="mailto:someone@yoursite.com">Email Us</a>
+              <a href="tel:555-555-555">123-456-7890</a>
+            </div>
+          </div>
+        </div>
+        <div class="faq-section">
+          <h1>Frequently Asked Questions.</h1>
+          <input type="text" placeholder="Search.." name="search2" />
+          <a href="#">How can I track my order?</a>
+          <div class="plank"></div>
+          <a href="#">How can I cancel my order?</a>
+          <div class="plank"></div>
+          <a href="#">What is not covered under warranty?</a>
+          <div class="plank"></div>
+          <a href="">What is covered under warranty?</a>
+          <div class="plank"></div>
+        </div>
+      </div>
+      <div class="map-container" data-aos="fade-right">
+        <h1>Visit us everyday from 9.00 AM to 18PM</h1>
+        <iframe
+          class="map-pin"
+          src="https://embed.lottiefiles.com/animation/1342"
+        ></iframe>
+
+        <iframe
+          class="map"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2978.1185667498594!2d44.78244501543607!3d41.71796027923514!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x404472d4fa5b02d7%3A0xced15c2c7992ceb5!2sGeoLab!5e0!3m2!1sen!2sge!4v1637590648771!5m2!1sen!2sge"
+          width="450"
+          height="450"
+          style="border: 0"
+          allowfullscreen=""
+          loading="lazy"
+        ></iframe>
+      </div>
+    </section>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
