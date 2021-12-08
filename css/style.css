@@ -450,6 +450,10 @@ body {
   max-width: 560px;
   width: 100%;
 }
+.item-section {
+  justify-content: space-evenly;
+  width: 90%;
+}
 /* -------------------contact-page---------------------- */
 .contact-section {
   padding-left: 150px;
