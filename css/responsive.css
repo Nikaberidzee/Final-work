@@ -73,8 +73,6 @@
   .youtube-video > iframe {
     margin: 0 auto;
   }
-}
-@media (max-width: 880px) {
   .contact-section {
     display: block;
   }
@@ -84,6 +82,8 @@
   .map-container {
     margin-top: 20px;
   }
+}
+@media (max-width: 880px) {
   .item-banner {
     max-width: 300px;
   }
@@ -169,7 +169,7 @@
     padding-left: 170px;
   }
   .youtube-section {
-    padding-left: 170px;
+    padding-left: 150px;
   }
   .item-prices {
     justify-content: center;
@@ -178,7 +178,7 @@
     max-width: 450px;
   }
   .item-left-section {
-    height: 400px;
+    height: 250px;
   }
   .item-name-banner {
     text-align: center;
@@ -218,16 +218,20 @@
     padding-left: 100px;
   }
   .youtube-section {
-    padding-left: 100px;
+    padding-left: 80px;
   }
-}
-@media (max-width: 420px) {
+  .slick-track {
+    padding-top: 15px;
+    padding-left: 15px;
+  }
   .contact-container {
     display: block;
   }
   .faq-section {
     margin-bottom: 20px;
   }
+}
+@media (max-width: 420px) {
   .ask-us-container {
     max-width: 100%;
     margin-right: 0;
@@ -275,7 +279,7 @@
     height: 200px;
   }
   .item-section {
-    padding-left: 80px;
+    padding-left: 98px;
   }
   .youtube-section {
     padding-left: 70px;

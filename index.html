@@ -15,11 +15,13 @@
       property="og:image"
       content="https://uploads1.wikiart.org/00334/images/gustave-dore/paul-gustave-dore-by-felix-nadar-1855-1859.jpg!Portrait.jpg"
     />
+
     <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" "
+    href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/responsive.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Estonia&family=Road+Rage&display=swap"
       rel="stylesheet"
@@ -85,20 +87,31 @@
       </div>
       <div class="right-section" data-aos="fade-right">
         <img src="img/earphones.png" alt="earphones" />
+        <img src="img/sen.png" alt="earphones" />
+        <img src="img/sen2.png" alt="earphones" />
       </div>
-      <!-- <footer class="footer-menu">
-            <div class="footer-scroll">
-                <a href="#">
-                    <div class="active-page"></div>
-                </a>
-                <a href="#"></a>
-                <a href="#"></a>
-            </div>
-        </footer> -->
     </section>
+    <script
+      src="https://code.jquery.com/jquery-3.6.0.min.js"
+      integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+      crossorigin="anonymous"
+    ></script>
+    <script src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
       AOS.init();
+      $(".right-section").slick({
+        dots: true,
+        infinite: true,
+        speed: 500,
+        fade: true,
+        arrows: false,
+        cssEase: "linear",
+        autoplay: true /* this is the new line */,
+        autoplaySpeed: 1500,
+        infinite: true,
+      });
     </script>
   </body>
 </html>
