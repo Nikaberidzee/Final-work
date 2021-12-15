@@ -40,8 +40,9 @@
   .youtube-section {
     display: block;
   }
-  .youtube-video > iframe {
-    margin: 0 auto;
+  .youtube-video > video {
+    /* margin: 0 auto; */
+    /* height: 700px; */
   }
 }
 @media (max-width: 1060px) {
@@ -219,6 +220,9 @@
   }
   .youtube-section {
     padding-left: 80px;
+  }
+  .youtube-video {
+    height: 1px;
   }
   .slick-track {
     padding-top: 15px;
